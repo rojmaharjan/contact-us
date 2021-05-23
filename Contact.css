@@ -1,0 +1,27 @@
+input[type=text], textarea {width: 90%;
+						padding: 10px;
+						border:1px solid black;
+						margin-top: :6px;
+						margin-bottom: 16px;
+						resize: vertical;}
+input[type=submit]{padding: 12px 20px;
+					cursor: pointer;
+					margin: 2px;}	
+header{background-color: rgb(100,100,100);
+		padding: 10px;
+		color: white; }
+		 				
+body.double{border-style:double;
+			background-color: white;
+			color:black;
+		}	
+body{width:600px;
+	height: 650px;
+	text-align: center;}
+label{float: left;
+	padding: 5px;	}
+.contact{display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
